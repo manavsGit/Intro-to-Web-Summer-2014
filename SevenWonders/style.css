@@ -1,0 +1,170 @@
+
+
+body
+{
+	background-color:#dadda2;
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+/******************************************
+ Top-Image Gallery  Begins
+******************************************/
+#imgSlider img{
+
+	height: 150px;
+	width: 200px;	
+	padding:0px;
+	position:relative;
+	margin:0px;
+	
+	
+	
+}
+
+#imgSlider
+{
+	border: 2px solid black;
+	height: 150px;
+	width: 100%;	
+	overflow: hidden;
+	
+
+}
+
+/******************************************
+	Top-Image Gallery Ends
+******************************************/
+
+
+
+
+
+/******************************************
+	Top-Title Begins
+******************************************/
+
+
+h1
+{
+ font-family: pristina;
+ font-size:72px;
+ margin:0px;
+ padding-left:60px;
+
+}
+/******************************************
+	Top-Title Ends
+******************************************/
+
+
+/******************************************
+	Side Bar List Begins
+******************************************/
+
+#sidebar
+{
+
+	width: 25%;
+	height: 700px;
+	float: left;
+	border-right: 2px solid black;
+	padding-top: 40px;
+}
+
+
+#sidebar ul li
+{
+
+	list-style: none;
+	margin-bottom: 10px;
+	font-family: pristina;
+	font-size: 21px;	
+	font-weight: bold;
+	background-color: #a6ab3f;
+	border:1px solid white;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	padding: 10px;
+
+
+
+}
+
+
+#sidebar ul li:hover{
+
+	background-color: red;
+}
+#sidebar ul li a:link	
+{
+
+	color: black;
+	text-decoration: none;
+	
+}
+
+
+
+/******************************************
+	Side Bar List Ends
+******************************************/
+
+
+
+/******************************************
+	Content Div Begins
+******************************************/
+	
+#content
+{
+	width: 70%;
+	height: 500px;
+	float: right;
+	padding-right: 50px;
+
+
+}
+
+	
+/******************************************
+	Content Div Ends
+******************************************/
+
+
+
+/******************************************
+	Wrapper Div Begins
+******************************************/
+	
+#wrapper
+{
+	width: 100%;
+	height: 600px;
+	
+
+}
+
+	
+/******************************************
+	Wrapper Div Ends
+******************************************/
+
+
+.clear
+{
+
+	height: 20px;
+	clear: both;
+}
+
+.footer
+{
+
+	height: 50px;
+	width: 100%;
+	background-color: black;
+}
